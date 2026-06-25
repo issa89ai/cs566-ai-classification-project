@@ -1,168 +1,93 @@
-\# CS 467 / CS 566 – Advanced Topics in Artificial Intelligence  
+# CS566 – Artificial Intelligence: Classification Algorithms
 
-\## Final Project: Classification Algorithms
+## 📘 Course Information
 
-
-
-This repository contains the final project for \*\*CS 467 / CS 566 – Advanced Topics in Artificial Intelligence\*\* at \*\*Bishop’s University\*\*.
-
-
-
-The project focuses on the implementation and analysis of \*\*classification algorithms\*\* commonly used in artificial intelligence, with an emphasis on perceptron-based models and margin-based learning.
-
-
+- **Course:** CS566 – Artificial Intelligence  
+- **Term:** Summer 2024  
+- **Institution:** Bishop's University  
+- **Project Type:** Final Project  
+- **Topic:** Classification Algorithms — Perceptron, MIRA & Behavioral Cloning  
 
 ---
 
+## 📌 Project Overview
 
+This project implements and evaluates multiple **classification techniques** in Python, with an emphasis on perceptron-based models and margin-based learning. The implementations are based on the **UC Berkeley Pacman AI framework**.
 
-\## 📌 Project Overview
-
-
-
-The objective of this project is to design, implement, and evaluate multiple \*\*classification techniques\*\* in Python.  
-
-The project explores learning algorithms through practical experiments and comparative analysis.
-
-
-
-Key components include:
-
-\- Feature design
-
-\- Model training
-
-\- Performance evaluation
-
-\- Behavioral and agent-based classification tasks
-
-
+Key components:
+- Feature design for image and agent-based classification
+- Model training with iterative weight updates
+- Performance evaluation on digit recognition and Pacman behavior
+- Comparative analysis of Perceptron vs. MIRA
 
 ---
 
+## 🧠 Algorithms Implemented
 
-
-\## 🧠 Algorithms Implemented
-
-
-
-\- Perceptron
-
-\- Perceptron Analysis
-
-\- MIRA (Margin Infused Relaxed Algorithm)
-
-\- Behavioral Cloning
-
-\- Pacman Feature Design
-
-
+- **Perceptron** — standard linear classifier with online weight updates
+- **MIRA (Margin Infused Relaxed Algorithm)** — margin-based perceptron variant
+- **Behavioral Cloning** — learning Pacman actions from expert demonstrations
+- **Pacman Feature Design** — custom feature engineering for agent classification
 
 ---
 
+## 🛠️ Technologies Used
 
-
-\## 🛠️ Technologies Used
-
-
-
-\- Python 3
-
-\- NumPy
-
-\- Standard Python libraries
-
-\- Command-line execution
-
-
+- Python 3
+- NumPy
+- UC Berkeley Pacman AI framework
+- Command-line execution
 
 ---
 
+## 📂 Repository Structure
 
-
-\## 📂 Project Structure
-
-
-
+```
 cs566-advanced-ai-classification/
-
-│
-
-├── src/ # Python source code
-
-│ ├── answers.py
-
-│ ├── dataClassifier.py
-
-│ ├── mira.py
-
-│ ├── perceptron.py
-
-│ └── perceptron\_pacman.py
-
-│
-
-├── report/ # Final project report
-
-│ └── Final\_Project.pdf│
-
-├── README.md
-
-└── .gitignore
-
+├── src/
+│   ├── dataClassifier.py       # Main classifier driver
+│   ├── perceptron.py           # Perceptron classifier
+│   ├── perceptron_pacman.py    # Pacman behavioral cloning
+│   ├── mira.py                 # MIRA classifier
+│   └── answers.py              # Analysis answers
+├── report/
+│   └── Final Project report.pdf
+├── .gitignore
+└── README.md
+```
 
 ---
 
+## ▶️ How to Run
 
+1. Navigate to the `src/` directory:
+   ```bash
+   cd src
+   ```
 
-\## ▶️ How to Run
+2. Run a classifier:
+   ```bash
+   python dataClassifier.py -c perceptron
+   python dataClassifier.py -c mira
+   ```
 
+---
 
+## 📝 Notes
 
-1\. Navigate to the `src/` directory:
+This project was developed as part of an academic course.  
+The code is intended for educational and research purposes only.  
+Base framework provided by UC Berkeley (Pacman AI Projects).
 
-&nbsp;  ```bash
+## 👤 Author
 
-&nbsp;  cd src
-
-
-2.Run the desired classifier using Python:
-
-
-
-python perceptron.py
-
-
-
-
-
-(Other classifiers can be run in the same way.)
-
-📝 Notes
-
-
-
-This project was developed as part of an academic course.
-
-
-
-The code is intended for educational and research purposes only.
-
-
-
-No external datasets are required beyond those provided with the assignment.
-
-
-
-👤 Author
-
-
-
-Ahmad Issa
-
-Bishop’s University
-
+**Ahmad Issa**  
+Bishop's University  
 Department of Computer Science
 
+---
 
-
+**Ahmad Issa**  
+Master's Student in Computer Science  
+Bishop's University  
+Student ID: 002230777
