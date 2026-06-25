@@ -82,12 +82,5 @@ Base framework provided by UC Berkeley (Pacman AI Projects).
 ## 👤 Author
 
 **Ahmad Issa**  
-Bishop's University  
-Department of Computer Science
-
----
-
-**Ahmad Issa**  
-Master's Student in Computer Science  
-Bishop's University  
-Student ID: 002230777
+Machine Learning Engineer | AI & Data Science  
+[GitHub](https://github.com/issa89ai) · [LinkedIn](https://linkedin.com/in/ahmadissa)
