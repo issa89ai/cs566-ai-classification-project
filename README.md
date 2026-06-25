@@ -33,7 +33,7 @@ Key components:
 
 ## 🛠️ Technologies Used
 
-- Python 3
+- Python 2 (required by the UC Berkeley Pacman framework)
 - NumPy
 - UC Berkeley Pacman AI framework
 - Command-line execution
